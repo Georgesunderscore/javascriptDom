@@ -50,7 +50,7 @@
                     newbox.classList.add("box-valid")
                     if(nb == board.children.length ){
                         board.querySelectorAll(".box").forEach(function(box){
-                            showReaction("succes", box)
+                            showReaction("success", box)
                         })
                     }
                     nb++
