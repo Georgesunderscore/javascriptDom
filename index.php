@@ -57,8 +57,8 @@
                 }
                 else if(i > nb){
                     showReaction("error", newbox)
-                    board.querySelectorAll(".box-clicked").forEach(function(validBox){
-                        validBox.classList.remove("box-clicked")
+                    board.querySelectorAll(".box-valid").forEach(function(validBox){
+                        validBox.classList.remove("box-valid")
                     })
                     nb = 0
                     
